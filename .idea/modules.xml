@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PPO.iml" filepath="$PROJECT_DIR$/PPO.iml" />
       <module fileurl="file://$PROJECT_DIR$/PPO-1/PPO-1.iml" filepath="$PROJECT_DIR$/PPO-1/PPO-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PPO-2/PPO-2.iml" filepath="$PROJECT_DIR$/PPO-2/PPO-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PPO-3.2/PPO-3.2.iml" filepath="$PROJECT_DIR$/PPO-3.2/PPO-3.2.iml" />
     </modules>
   </component>
 </project>
