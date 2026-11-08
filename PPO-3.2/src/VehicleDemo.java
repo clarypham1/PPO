@@ -3,25 +3,22 @@ public class VehicleDemo {
     public static void main(String[] args) {
         System.out.println("Vehicle Demonstration");
         System.out.println();
-        Vehicle car = new Car();
-        Vehicle motorcycle = new Motorcycle();
-        Vehicle bus = new Bus();
 
-        car.start();
-        car.stop();
-        System.out.println("Car Information:");
-        System.out.println(car.getInfo());
-        System.out.println();
+        AbstractVehicle[] vehicles = {
+                new Car(),
+                new Motorcycle(),
+                new Bus(),
+                new ElectricCar(),
+                new ElectricMotorcycle()
+        };
 
-        motorcycle.start();
-        motorcycle.stop();
-        System.out.println("Motorcycle Information:");
-        System.out.println(motorcycle.getInfo());
-        System.out.println();
-
-        bus.start();
-        bus.stop();
-        System.out.println("Bus Information:");
-        System.out.println(bus.getInfo());
+        for (AbstractVehicle vehicle : vehicles) {
+            vehicle.start();
+            vehicle.stop();
+            vehicle.charge();
+            System.out.println("Information:");
+            System.out.println(vehicle.getInfo());
+            System.out.println();
+        }
     }
 }
