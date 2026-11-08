@@ -1,7 +1,7 @@
 public class ElectricMotorcycle extends AbstractVehicle {
 
     public ElectricMotorcycle() {
-        super("Electric Motorcycle", "Electricity", "Blue");
+        super("Electric Motorcycle", "Electricity", "Blue", 0.07, "kWh/km");
     }
 
     @Override

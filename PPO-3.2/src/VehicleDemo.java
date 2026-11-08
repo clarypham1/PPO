@@ -18,6 +18,9 @@ public class VehicleDemo {
             vehicle.charge();
             System.out.println("Information:");
             System.out.println(vehicle.getInfo());
+            // new in Task 4
+            System.out.println("Fuel efficiency: " + vehicle.calculateFuelEfficiency()
+                    + " " + vehicle.getEfficiencyUnit());
             System.out.println();
         }
     }
